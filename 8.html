@@ -1,0 +1,19 @@
+<!doctype html>
+<head></head>
+<body>
+ <form action="7.html" method="post" name="formImageUpload"/*this enctype is used so that each form control is sent separately to the server.this is required on a form that uses a file upload box*/
+  enctype="multipart/form-data">
+  <feildset>
+    <legend><em>Upload file</em></legend><table border="1">
+    <tr><td>
+ <input type="file" name="fileupload" /*to indicate MME types of files that can be selected for upload*/ accept="image/*"></td>
+ </tr>
+ <br><br>
+ <tr>
+ <td></td>
+ <td><input type="submit" value="Submit"></td>
+ </tr></table>
+ </feildset>
+ </form>
+</body>
+</html>
